@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Notas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Notas</h1>
+    <form id="formulario-nota">
+        <label for="tipo">Tipo de Nota:</label>
+        <select id="tipo">
+            <option value="normal">Normal</option>
+            <option value="critica">Crítica</option>
+        </select>
+        <label for="contenido">Contenido:</label>
+        <textarea id="contenido" required></textarea>
+        <button type="submit">Agregar Nota</button>
+    </form>
+    <form id="filtro-formulario">
+        <label for="year">Año:</label>
+        <input type="number" id="year" min="2000" max="2100" required>
+
+        <label for="month">Mes:</label>
+        <input type="number" id="month" min="1" max="12" required>
+
+        <button type="submit">Filtrar Notas</button>
+    </form>
+    <div id="listaNotas"></div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

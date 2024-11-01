@@ -1,6 +1,6 @@
 import { Nota } from './classes/Nota.js';
 import { NotasService } from './classes/NotasService.js';
-import { UI } from './classes/UI.js';
+import { UI } from './classes/UI.js'; /*importaciones*/
 
 const formulario = document.getElementById('formulario-nota');
 const tipoInput = document.getElementById('tipo');

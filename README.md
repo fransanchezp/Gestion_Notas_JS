@@ -9,9 +9,17 @@ Características
     Obtener Notas: Listar todas las notas almacenadas en la base de datos.
     Filtrar Notas: Filtrar notas por mes y año.
     Interfaz de Usuario: UI sencilla y fácil de usar.
+    
 Tecnologías Utilizadas
     Node.js: Entorno de ejecución para JavaScript en el servidor.
     Express: Framework web para Node.js.
     MongoDB: Base de datos NoSQL para almacenar las notas.
     Mongoose: ODM (Object Data Modeling) para MongoDB y Node.js.
     HTML/CSS/JavaScript: Tecnologías básicas para la interfaz de usuario.
+    
+Comandos usados en la terminal
+Iniciar MongoDB -> mongod
+Instalar dependencias -> npm install
+Iniciar servidor -> npm start
+Clonar el repositorio -> git clone <URL_REPOSITORIO>
+cd NotesProject
